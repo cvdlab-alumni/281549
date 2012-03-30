@@ -1,5 +1,3 @@
-Tutte le funzioni sono in maiuscolo, accettano un solo parametro (un array) e restituiscono una funzione
-
 ===== DOMAIN =====
 
 Prende in input un array in cui sono contenuti gli intervalli delle dimensioni del dominio e restituisce un modello che rappresenta tale dominio
