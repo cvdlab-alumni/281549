@@ -196,5 +196,11 @@ var tableLegs = STRUCT(REPLICA(4)([tableLeg,R([2])([PI/2])]));
 var table = STRUCT([tableSurface,tableLegs]);
 elements.push(COLOR([1,.6,.3])(T([0,1,2])([3,18.5,.1])(R([2])([PI/7])(table))));
 
+var chairBase = T([0,1,2])([-.25,-.25,.4])(SIMPLEX_GRID([[.5],[.5],[.03]]));
+var chairLeg = T([0,1])([.2,.2])(SIMPLEX_GRID([[.05],[.05],[.4]]));
+var chairLegs = STRUCT(REPLICA(4)([chairLeg,R([2])([PI/2])]));
+var chairBack = T([0,1,2])([-.25,-.25,.4])(SIMPLEX_GRID([[.5],[.05],[.4]]));
+var chair = STRUCT([chairBase,chairLegs,chairBack]);
+elements.push(COLOR([.8,.4,.2])(T([0,1,2])([2.8,19.5,.1])(R([2])([PI])(chair))));
 
 DRAW(STRUCT(elements));
