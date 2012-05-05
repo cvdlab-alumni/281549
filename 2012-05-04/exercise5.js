@@ -1,4 +1,3 @@
-
 function createWing() {
 	var wing = [];
 
@@ -329,8 +328,14 @@ function createAirplane() {
 	return airplane;
 }
 
-DRAW(createAirplane());
+var scene = [];
+var plane = createAirplane();
+plane = R([1,2])([PI/8])(plane);
+plane = T([1])([25])(plane);
+scene.push(plane);
 
 var airStrip = new SIMPLEX_GRID([[20],[.1],[2000]]);
-airStrip = T([0,1,2])([-10,-4,-80])(airStrip);
-DRAW(airStrip);
+airStrip = T([0,1,2])([-10,-4,-70])(airStrip);
+scene.push(airStrip);
+
+DRAW(STRUCT(scene));
