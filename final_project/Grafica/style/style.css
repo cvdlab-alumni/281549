@@ -1,0 +1,146 @@
+@font-face {
+	font-family: Text;
+	src: url('StMarie-Thin.otf');
+}
+
+@font-face {
+	font-family: Title;
+	src: url('Worstveld oblique.otf');
+}
+
+body {
+	font-family: Text;
+	color: #EEEEEE;
+	background-color: #2B2B2B;
+	width: 100%;
+	height: 100%;
+}
+
+a:link{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+a:visited{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+a:hover{
+  color: #EEDD44;
+  text-decoration: none;
+}
+a:focus{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+a:active{
+  color: #EEEEEE;
+  text-decoration: none;
+}
+
+section {
+	margin-left: 25%;
+	margin-right: 10%;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	width: 65%;
+	font-size: 24px;
+}
+
+.line {
+	background-color: #888888;
+	margin-left: 25%;
+	margin-right: 10%;
+	width: 65%;
+	height: 1px;
+}
+
+.inner_line {
+	background-color: #444444;
+	margin-left: 25%;
+	margin-right: 25%;
+	width: 50%;
+	height: 1px;
+}
+
+h1 {
+	font-family: Title;
+	font-size: 72px;
+	margin: 32px;
+	margin-left: 10px;
+	line-height: 80px;
+}
+
+h2 {
+	font-family: Title;
+	font-size: 90px;
+	margin: 50px;
+	margin-right: 10%;
+	text-align: right;
+}
+
+h3 {
+	font-family: Text;
+	font-size: 16px;
+	margin: 4px;
+	text-align: center;
+	line-height: 24px;
+}
+
+p {
+	margin: 32px;
+	margin-top: 40px;
+	text-align: justify;
+	line-height: 24px;
+	font-weight: bold;
+}
+
+.standard_list {
+	font-family: Text;
+	font-size: 26px;
+	margin: 10px;
+	margin-left: 30px;
+	text-decoration: bold;
+	list-style: disc;
+}
+
+/* MODEL LINKS */
+.model_link_list {
+	font-family: Title;
+	margin: 24px;
+	margin-left: 64px;
+	line-height: 40px;
+	height: 30%;
+}
+
+.model_link_element {
+	font-size: 30px;
+}
+
+/* NAVIGATION BAR */
+#navigation_bar {
+	font-family: Title;
+	position: fixed;
+	margin: 24px;
+	margin: 32px;
+	line-height: 32px;
+	height: 50%;
+}
+
+.navigation_element {
+	font-size: 32px;
+}
+
+/* IMAGES */
+.image-left {
+	float: left;
+	margin: 15px;
+	width: 200px;
+	height: 200px;
+}
+
+.image-right {
+	float: right;
+	margin: 15px;
+	width: 200px;
+	height: 200px;
+}
