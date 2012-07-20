@@ -88,6 +88,16 @@ h3 {
 	line-height: 24px;
 }
 
+h4 {
+	text-align: center;
+	font-family: Text;
+	font-size: 12px;
+	line-height: 18px;
+	text-decoration: bold;
+	margin: 10px;
+	margin-left: 25%;
+}
+
 p {
 	margin: 32px;
 	margin-top: 40px;
