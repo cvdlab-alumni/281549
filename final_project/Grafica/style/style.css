@@ -82,6 +82,8 @@ h3 {
 	font-family: Text;
 	font-size: 16px;
 	margin: 4px;
+	margin-left: 25%;
+	margin-right: 25%;
 	text-align: center;
 	line-height: 24px;
 }
@@ -128,6 +130,11 @@ p {
 
 .navigation_element {
 	font-size: 32px;
+}
+
+#side_image {
+	width: 150px;
+	height: 200px;
 }
 
 /* IMAGES */
